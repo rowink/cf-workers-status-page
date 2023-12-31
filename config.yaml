@@ -42,7 +42,7 @@ monitors:
 
   - id: upptime
     name: upptime
-    description: 'magic book.'
+    description: 'page uptime.'
     url: 'https://upptime.exi.software/'
     method: GET
     expectStatus: 200
