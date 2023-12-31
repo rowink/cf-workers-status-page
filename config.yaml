@@ -69,7 +69,7 @@ monitors:
     description: 'some pictrue for page background.'
     url: 'https://pic.exi.software/'
     method: GET
-    expectStatus: 200
+    expectStatus: 401
     linkable: true # allows the title to be a link, default=true
 
   - id: short link
