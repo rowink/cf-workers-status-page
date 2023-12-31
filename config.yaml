@@ -25,9 +25,97 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: exi.software
-    name: 魔法实验室
+    name: exi.software
     description: 'magic lab.'
     url: 'https://exi.software'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: m.exi.ink
+    name: m.exi.ink
+    description: 'magic book.'
+    url: 'https://m.exi.ink/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: upptime
+    name: upptime
+    description: 'magic book.'
+    url: 'https://upptime.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: github proxy
+    name: github proxy
+    description: 'github proxy.'
+    url: 'https://git.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: Ecloud
+    name: Ecloud
+    description: 'cloud storage.'
+    url: 'https://drive.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: picture bed
+    name: picture bed
+    description: 'some pictrue for page background.'
+    url: 'https://pic.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: short link
+    name: short link
+    description: 'short link or word.'
+    url: 'https://short.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: cloud notepad
+    name: cloud notepad
+    description: 'save your note online.'
+    url: 'https://short.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: txtable
+    name: txtable
+    description: 'set table only by text.'
+    url: 'https://table.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: qrcode
+    name: qrcode
+    description: 'a simple qrcode tool.'
+    url: 'https://qrcode.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: utxt
+    name: utxt
+    description: 'character deduplication.'
+    url: 'https://txt.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: devkit
+    name: devkit
+    description: 'some development tool collection.'
+    url: 'https://devkit.exi.software/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
