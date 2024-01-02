@@ -56,14 +56,6 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: Ecloud
-    name: Ecloud
-    description: 'cloud storage.'
-    url: 'https://drive.exi.software/'
-    method: GET
-    expectStatus: 401
-    linkable: true # allows the title to be a link, default=true
-
   - id: picture bed
     name: picture bed
     description: 'some pictrue for page background.'
