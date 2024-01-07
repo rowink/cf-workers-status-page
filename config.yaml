@@ -40,7 +40,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
- - id: e.exi.ink
+  - id: e.exi.ink
     name: e.exi.ink
     description: 'a blog about views.'
     url: 'https://e.exi.ink/'
