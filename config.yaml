@@ -119,3 +119,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: designkit
+    name: designkit
+    description: 'some design tool collection.'
+    url: 'https://designkit.exi.software/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
