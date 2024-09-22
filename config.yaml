@@ -48,14 +48,6 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: upptime
-    name: upptime
-    description: 'page uptime.'
-    url: 'https://upptime.exi.software/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
   - id: github proxy
     name: github proxy
     description: 'github proxy.'
